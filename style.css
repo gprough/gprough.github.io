@@ -1,9 +1,27 @@
 nav{
     Font-size: 28px;
     }
-    imj{
-      width:200px;
+    img{
+      height:200px;
     }
    body{
-     color:black;
+    background-color:gray;
    }
+div{
+  margin:25px;
+  background-color:lightskyblue
+  padding:15px;
+}
+a:link{
+  color:teal;
+  background-color:slategray;
+}
+ a:visited{
+   color:navy;
+   background-color:teal;
+ }
+  a:hover{
+    color:lightskyblue;
+    background-color:navy;
+    font-size:15px;
+  }
