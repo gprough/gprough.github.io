@@ -1,5 +1,5 @@
 nav{
-    Font-size: 28px;
+    Font-size: 20px;
     }
     img{
       height:200px;
@@ -8,9 +8,9 @@ nav{
     background-color:gray;
    }
 div{
-  margin:25px;
+  margin:30px;
   background-color:lightskyblue
-  padding:15px;
+  padding:20px;
 }
 a:link{
   color:teal;
@@ -23,5 +23,5 @@ a:link{
   a:hover{
     color:lightskyblue;
     background-color:navy;
-    font-size:15px;
+    font-size:20px;
   }
