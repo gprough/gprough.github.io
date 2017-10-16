@@ -1,5 +1,5 @@
 nav{
-    Font-size: 28px;
+    Font-size: 20px;
     }
     img{
       height:200px;
@@ -10,9 +10,7 @@ nav{
 div{
   margin:30px;
   background-color:lightskyblue
-  padding:25px;
-  border-radius:30px;
-  text-align:center;
+  padding:20px;
 }
 a:link{
   color:teal;
