@@ -2,10 +2,11 @@
    <head>
         <title>Magic 8 Ball</title>
         <link rel="stylesheet" type="text/css" href="style.css" >
-              </head>
-            <body>
-       <div>
-           <nav>
+        <script src="script.js"></script>
+    </head>
+   <body>
+      <div>
+          <nav>
          <a href="index.html">
                Home
               </a>
@@ -19,8 +20,9 @@
                </a>
            </nav>
            <section>
-               <img src="magic8ball" />
-             <p>
+               <img id="magic8ball" src="magic8ball.jpg"
+               onclick="shakeMagic8Ball();" />
+             <p id="results">
          Click the 8 ball to exspose yourself!
                   </p>
               </section>
