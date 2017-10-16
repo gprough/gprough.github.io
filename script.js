@@ -1,3 +1,3 @@
 function shakeMagic8Ball(){
-    alert("test");
+    alert("viewer discretion is advised");
 }
