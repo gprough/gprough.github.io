@@ -39,7 +39,7 @@ function shakeMagic8Ball(){
         //to shake the 8 ball again
         document.getElementById("results").innerHTML="Click the 8 ball to exspose yourself!";
 
-         imageState = "front";
+    imageState = "front";
     }
 
     //alert(randomNum());
