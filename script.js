@@ -10,22 +10,36 @@ var list = ["yes.",
             "I don't know bro.",
             "Okay Then.",
             "The children are laughing."];
+var imageState = "front";
 
 //this function outputs a random number
 function randomNum(){
     return Math.floor(Math.random() * 10);
 }
-
 //this function responds with a fortune
 //when click the magic 8 ball image
 function shakeMagic8Ball(){
-    //alert("viewer discretion is advised");
 
-    //grab image by id
-    document.getElementById("magic8ball").src="magic8ball2.jpg"
+    //if the picture is of the front side...
+    if(imageState == "front"){
+      //grab image by id
+    document.getElementById("magic8ball").src="magic8ball2.jpg";
 
-    //grab the results
-    document.getElementById("results").innerHTML=list[5];
+      //grab the results
+    document.getElementById("results").innerHTML=list[randomNum()];
 
-    alert(randomNum());
+    imageState = "back";
+    }
+    //else, it's the picture of the back side...
+    else{
+        //go back to the front picture
+        document.getElementById("magic8ball").src="magic8ball.jpg";
+
+        //change results paragraph to say something to promt the user
+        //to shake the 8 ball again
+        document.getElementByID("results").innerHTML="Click the 8 ball to exspose yourself!";
+         imageState = "front";  
+    }
+
+    //alert(randomNum());
 }
