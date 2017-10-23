@@ -13,7 +13,7 @@ var list = ["yes.",
 
 //this function outputs a random number
 function randomNum(){
-    return Math.random() * 10;
+    return Math.floor(Math.random() * 10);
 }
 
 //this function responds with a fortune
