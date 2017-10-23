@@ -37,8 +37,9 @@ function shakeMagic8Ball(){
 
         //change results paragraph to say something to promt the user
         //to shake the 8 ball again
-        document.getElementByID("results").innerHTML="Click the 8 ball to exspose yourself!";
-         imageState = "front";  
+        document.getElementById("results").innerHTML="Click the 8 ball to exspose yourself!";
+
+         imageState = "front";
     }
 
     //alert(randomNum());
