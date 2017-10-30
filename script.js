@@ -28,6 +28,7 @@ function shakeMagic8Ball(){
       //grab the results
     document.getElementById("results").innerHTML=list[randomNum()];
 
+
     imageState = "back";
     }
     //else, it's the picture of the back side...
