@@ -1,4 +1,4 @@
-var character = 'x';
+var character = 'o';
 
 //This function handles the onclick event
 function turn(location){
