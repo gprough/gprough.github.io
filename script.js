@@ -43,5 +43,5 @@ function shakeMagic8Ball(){
     imageState = "front";
     }
 
-    //alert(randomNum());
+    
 }

@@ -59,3 +59,16 @@ a:link{
   top:100px;
   left:100px;
 }
+
+#clickPanel{
+   height: 600px;
+   width: 100%;
+}
+
+#circlebox{
+   height: 600px;
+   width: 100%;
+   border-radius:30px;
+   border-style: double;
+   background-color: red;
+}
