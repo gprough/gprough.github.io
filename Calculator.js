@@ -1,5 +1,5 @@
 function randomImg(){
-var randomImg = Math.floor(Math.random() * 10) + 1;
-var imgName = "img_" + &#128513;
-document.getElementById("&#128513;").src= wierd + "/" + imgName ;
+var randomNumber = Math.floor(Math.random() * 10) + 1;
+var imgName = "img_" + randomNumber;
+document.getElementById("imageid").src= YOUR_IMG_PATH + "/" + imgName ;
 }
