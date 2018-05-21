@@ -12,37 +12,34 @@
  <div id="agh"><p>Deathly Emoji Calculator</p> </div>
           <form name="calculator">
 
-            <input type="text" name="answer" />
+            <input type="text" name="input" />
             <br>
 
-            <input type="button" value=" &#128513; " onclick="calculator.answer.value += '&#128513;'" />
-            <input type="button" value=" &#128553; " onclick="calculator.answer.value += '&#128553;'" />
-            <input type="button" value=" &#128567; " onclick="calculator.answer.value += '&#128567;'" />
-            <input type="button" value=" + " onclick="calculator.answer.value += '+'" />
+            <input type="button" value=" &#128513; " onclick="calculator.input.value += '&#128513;'" />
+            <input type="button" value=" &#128553; " onclick="calculator.input.value += '&#128553;'" />
+            <input type="button" value=" &#128567; " onclick="calculator.input.value += '&#128567;'" />
+            <input type="button" value=" + " onclick="calculator.input.value += '+'" />
             <br/>
 
-            <input type="button" value=" &#128123; " onclick="calculator.answer.value += '&#128123;'" />
-            <input type="button" value=" &#128077; " onclick="calculator.answer.value += '&#128077;'" />
-            <input type="button" value=" &#128536; " onclick="calculator.answer.value += '&#128536;'" />
-            <input type="button" value=" - " onclick="calculator.answer.value += '-'" />
+            <input type="button" value=" &#128123; " onclick="calculator.input.value += '&#128123;'" />
+            <input type="button" value=" &#128077; " onclick="calculator.input.value += '&#128077;'" />
+            <input type="button" value=" &#128536; " onclick="calculator.input.value += '&#128536;'" />
+            <input type="button" value=" - " onclick="calculator.input.value += '-'" />
             </br>
 
-            <input type="button" value=" &#128299; " onclick="calculator.answer.value += '&#128299;'" />
-            <input type="button" value=" &#128521; " onclick="calculator.answer.value += '&#128521;'" />
-            <input type="button" value=" &#128293; " onclick="calculator.answer.value += '&#128293;'" />
-            <input type="button" value=" x " onclick="calculator.answer.value += '*'" />
+            <input type="button" value=" &#128299; " onclick="calculator.input.value += '&#128299;'" />
+            <input type="button" value=" &#128521; " onclick="calculator.input.value += '&#128521;'" />
+            <input type="button" value=" &#128293; " onclick="calculator.input.value += '&#128293;'" />
+            <input type="button" value=" x " onclick="calculator.input.value += '*'" />
             </br>
 
-            <input type="button" value=" c " onclick="calculator.answer.value = ''" />
-            <input type="button" value=" &#128525; " onclick="calculator.answer.value += '&#128525;'" />
-            <input type="button" value=" = " onclick="calculator.answer.value +=  <img id="var emojis" src="Calculator.js"
-             onclick="calculator.answer.value();" />
-             <p id="results">
-             </p>
-            <input type="button" value=" / " onclick="calculator.answer.value += '/''" />
+            <input type="button" value=" c " onclick="calculator.input.value = ''" />
+            <input type="button" value=" &#128525; " onclick="calculator.input.value += '&#128525;'" />
+            <input type="button" value=" = " onclick="getEmoji()" />
+            <input type="button" value=" / " onclick="calculator.input.value += '/'" />
             </br>
 
-
+            <input type="text" name="output" id="results" />
           </form>
           </div>
           <div id="agh">
