@@ -1,5 +1,5 @@
 #calc-contain{
-  position: relative;
+  position: center;
   border-style: solid;
   border-width: 1000px;
   border-color: black;
@@ -8,12 +8,11 @@
   padding: 20px 20px 100px 20px;
 }
 #agh{
-  position: relative;
-  float: right;
+  position: center;
   margin-top: 15px;
 }
 #agh p{
-  font-size: 20px;
+  font-size: 40px;
   font-weight: 900;
 }
 input[type=button] {
